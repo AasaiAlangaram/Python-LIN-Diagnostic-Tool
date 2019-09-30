@@ -1,9 +1,10 @@
-#import serial
-#import time
-#import RPi.GPIO as GPIO
-#GPIO.setwarnings(False)
-#GPIO.setmode(GPIO.BCM)
-#GPIO.setup(24,GPIO.OUT)
+import serial
+import time
+import RPi.GPIO as GPIO
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(24,GPIO.OUT)
+
 ser = serial.Serial("/dev/ttyS0",
                     baudrate=19231,
                     timeout=0.1,
@@ -31,8 +32,15 @@ def SendData(msg):
     Cks = CalcChecksum(tmpBuffer)
     tmpBuffer.append(Cks)
     ser.write(tmpBuffer)
+    
+#Function to calculate checksum
 
 def CalcChecksum(msg):
+  
+  """check sum calculation
+    The checksums are computed according to the following formula:
+    Checksum = INV (data byte 1 ⊕ data byte 2 ⊕ ... ⊕ data byte 8)"""
+  
     data =0
     for i in range(len(msg)):
         data = data+msg[i]
