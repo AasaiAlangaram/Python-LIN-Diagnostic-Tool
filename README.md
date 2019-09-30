@@ -4,7 +4,7 @@ LIN Communication using R-Pi Serial
 ## Project Overview
 
 The Purpose of this project is to read diagnostic data & other information from ECU through [LIN](https://en.wikipedia.org/wiki/Local_Interconnect_Network) communication.
-Our ECU supports LIN Communication.
+Our ECU supports LIN Communication.One can use this project to build their own LIN Analyzer.For GUI Implementation PyQt Framework is used.
 
 ## Requirements
 -[LIN Transceiver](https://www.nxp.com/docs/en/data-sheet/TJA1020.pdf)\
