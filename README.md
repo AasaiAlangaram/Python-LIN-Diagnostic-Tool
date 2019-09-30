@@ -41,3 +41,7 @@ This is how the following project was implemented.If you have any doubt in imple
 
 Use the GitHub issue.
 
+## Thanks Note
+
+*I Would like to thank my mentor for guiding me through out this project.*
+
