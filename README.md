@@ -37,7 +37,7 @@ This is how the following project was implemented.If you have any doubt in imple
 
 ![Schematic](https://user-images.githubusercontent.com/43054456/65871741-004d5100-e3ba-11e9-9830-ea4d8eb5a286.JPG)
 
-##  For Bug Reports :beetle:
+##  For Bug Reports & Help :beetle:
 
-Use the GitHub issue search
+Use the GitHub issue.
 
