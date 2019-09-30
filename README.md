@@ -31,5 +31,5 @@ This project used PI UART Protocol.To know more about serial communication in ra
 | 7 | Vbat |
 | 8 | INH |
 
+## Schematic
 
-**NOTE: This Readme File is under construction**
