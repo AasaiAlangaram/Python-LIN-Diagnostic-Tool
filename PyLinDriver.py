@@ -1,3 +1,7 @@
+
+#This Driver file contains the function which is used to send header frame, master frame.
+
+
 import serial
 import time
 import RPi.GPIO as GPIO
