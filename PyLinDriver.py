@@ -1,6 +1,5 @@
 
-#This Driver file contains the function which is used to send header frame, master frame.
-
+#This Driver file contain functions which is used to send header frame, master frame to target ECU.
 
 import serial
 import time
