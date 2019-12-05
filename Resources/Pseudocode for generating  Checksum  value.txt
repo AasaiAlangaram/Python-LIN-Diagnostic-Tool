@@ -1,0 +1,7 @@
+pseudocode to calculate checksum:
+
+1.get the send msg data
+2.add all the data one by one and form a one value
+3.if sum of all values is greater than 255 , subtract that value by 255
+4.Negate all values ie.data = ~data
+5.finally AND tha value with 0xFF ie.data = (data & 0xff).
