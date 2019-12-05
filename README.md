@@ -4,7 +4,7 @@ LIN Communication using R-Pi Serial
 
 ## Thanks Note
 
-I am always thankful to my mentor for guiding me through out this project.
+I'm thankful to my mentor for guiding me through out this project.
 
 ## Project Overview
 
