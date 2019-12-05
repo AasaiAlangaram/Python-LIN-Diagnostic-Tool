@@ -1,0 +1,26 @@
+from PyQt5.QtWidgets import *
+import sys
+class Window(QWidget):
+    def __init__(self):
+        QWidget.__init__(self)
+        layout = QBoxLayout(QBoxLayout.TopToBottom)
+        self.setLayout(layout)
+        label = QLabel("Label 1")
+        layout.setSpacing(1)
+        layout.addWidget(label)
+        label = QLabel("Label 2")
+        layout.setSpacing(1)
+        layout.addWidget(label)
+        label = QLabel("Label 3")
+        layout.setSpacing(1)
+        layout.addWidget(label)
+        label = QLabel("Label 3")
+        layout.setSpacing(1)
+        layout.addWidget(label)
+        label = QLabel("Label 4")
+        layout.setSpacing(1)
+        layout.addWidget(label)
+app = QApplication(sys.argv)
+screen = Window()
+screen.show()
+sys.exit(app.exec_())
