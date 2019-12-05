@@ -3,7 +3,7 @@ LIN Communication using R-Pi Serial
 
 ## Thanks Note
 
-I Would like to thank my mentor for guiding me through out this project.
+I am always thankful to my mentor for guiding me through out this project.
 
 ## Project Overview
 
