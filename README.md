@@ -1,3 +1,4 @@
+[![GitHub license](https://img.shields.io/github/license/dipakkr/A-to-Z-Resources-for-Students.svg?style=plastic)](https://github.com/AasaiAlangaram/Python-LIN-Diagnostic-Tool/blob/master/LICENSE)
 # LIN-Driver-Implemented-using-Python
 LIN Communication using R-Pi Serial 
 
