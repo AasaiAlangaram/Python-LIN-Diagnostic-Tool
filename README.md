@@ -45,7 +45,6 @@ This project used PI UART Protocol.To know more about serial communication in ra
 
 This is how the following project was implemented.If you have any doubt in implementing this :mailbox: :arrow_down: @aasaialangaram450@gmail.com
 
-![Schematic](https://user-images.githubusercontent.com/43054456/65871741-004d5100-e3ba-11e9-9830-ea4d8eb5a286.JPG)
 
 ##  For Bug Reports & Help :beetle:
 
