@@ -21,7 +21,7 @@ Our ECU supports LIN Communication.One can use this project to build their own L
 -[74LS08](http://www.sycelectronica.com.ar/semiconductores/74LS08.pdf)\
 -[Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)\
 -1K Resistor\
--Jumpers
+-Jumpers & Wires
 
 ## Serial Communication in PI
 
